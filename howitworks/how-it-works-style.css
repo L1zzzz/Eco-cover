@@ -86,6 +86,69 @@
 
  
 
+@media (min-width: 1000px) {
+    
+    .boarder{
+        margin: 0;
+  
+        
+    }
+    
+    .main{
+        display: flex;
+       
+    }
+    .diagram{
+        width: 75%;
+        margin-bottom: 20px; 
+          
+    }
+    
+    .visual{
+        flex: 50%;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    
+    .visual p {
+        width: 400px;
+
+    }
+    
+    .what-to-do{
+
+        flex: 50%;
+        align-items: center;
+        background-color: #7AB054;
+        clip-path: polygon(22% 0, 100% 0, 100% 100%, 0 100%);
+    }
+
+    .description{
+        width: 40%;
+        box-shadow: none;
+        margin-left: 120px;
+
+
+    }
+
+    .steps{
+        margin-top: 30px;
+        margin-left: 120px;
+        box-shadow: 8px 4px 7px #203f1c88;
+
+    
+    }
+
+    .learn-more{
+        margin-top:30px;
+    }
+    
+    
+    
+    }
+
+
 
 
 
