@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+    <title>--</title>
+</head>
+<style>
+
+@font-face {
+  font-family: gothic;
+  src: url(fonts/FontsFree-Net-All-Round-Gothic-W01-Demi.ttf);
+  font-weight: demi;
+  
+}
+@font-face {
+  font-family: gothicr;
+  src: url(fonts/FontsFree-Net-All-Round-Gothic-W01-Book.ttf);
+  font-weight: regular;
+  
+}
+@font-face {
+  font-family: opensans;
+  src: url(fonts/OpenSans-VariableFont_wdth\,wght.ttf);
+  font-weight: regular;
+}
+@font-face {
+  font-family: opensansbold;
+  src: url(fonts/OpenSans-Bold.ttf);
+  font-weight: bold;
+}
+    a:link { text-decoration: none; }
+    a:visited { text-decoration: none; }
+    a:hover { text-decoration: none; }
+    a:active { text-decoration: none; }
+
+    body{
+        margin: 0;
+        background-image: url(img/background.jpg);
+        background-repeat: no-repeat, repeat;
+        background-size: cover; /* Resize the background image to cover the entire container */
+        
+        background-color: white;
+
+    }
+    ul{
+        list-style-type: none; 
+    }
+
+h3{
+    font-family: gothicr;
+}
+p{
+    margin:0px;
+}
+
+.navigation{
+    display: flex;
+    justify-content: flex-start;
+    background-color:#43662B;
+    font-family: gothicr;
+}
+.navigation-list{
+    justify-content: center;
+
+    
+
+}
+.navigation-list-element{
+    justify-content: center;
+    
+
+}
+.navigation-link{
+    color: white;
+    text-align: center;
+}
+.main{
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color:#7AB054;
+    width: 80%;
+    align-items: center;
+    margin: auto;
+    padding: 20px;
+    border-radius: 20px;
+    font-family: opensans;
+    font-size: 15px;
+    box-shadow: 
+    0 2px 2px rgb(189, 189, 189),
+    0 6px 5px rgb(207, 207, 207),
+    0 12px 10px rgb(255, 255, 255)
+  ;
+    
+  
+}
+
+.textframe{
+    text-align: center;
+  
+}
+.box{
+    width: 100%;
+  height: auto;
+
+}
+.joinusbutton{
+    margin:auto;
+    padding: 8px;
+    background-color: #F2DE8B;
+    color: white;
+    border-radius: 25px;
+    font-family: opensansbold;
+    font-size: 15px;
+    box-shadow: 
+    0 2px 2px rgb(189, 189, 189),
+    0 6px 5px rgb(207, 207, 207),
+    0 12px 10px rgb(255, 255, 255)
+  ;
+
+   
+    
+}
+.buttonframe{
+    display: flex;
+    align-items: center;
+    padding: 40px;
+}
+.quoteframe{
+    display: flex;
+    align-items: center;
+}
+.quote{
+    margin: auto;
+    padding: 20px;
+    font-family:opensans ;
+}
+.quote>cite{
+    font-family: opensansbold;
+
+}
+footer{
+    background-color:#43662B ;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-family: opensans;
+    font-size: 8px;
+    
+
+}
+.socialico{
+    width: 20px ;
+    padding: 10px;
+
+}
+.anotationframe{
+    margin: 15px;
+}
+</style>
+
+
+<nav class="navigation">
+    <ul class="navigation-list">
+        <li class="navigation-list-element">
+            <a class="navigation-link" href="">HOME</a>
+        </li>
+    </ul>
+    <ul class="navigation-list">
+        <li class="navigation-list-element">
+            <a class="navigation-link" href="">HOW IT WORKS</a>
+        </li>
+    </ul>
+    <ul class="navigation-list">
+        <li class="navigation-list-element">
+            <a class="navigation-link" href="">THE PRODUCT</a>
+        </li>
+    </ul>
+    <ul class="navigation-list">
+        <li class="navigation-list-element">
+            <a class="navigation-link" href="">PARTNERS</a>
+        </li>
+    </ul>
+</nav>
+
+<body>
+    <section>
+        <img src="img/fragmented.gif" style="width: 100%; max-width: 100%; height: auto;">
+    </section>
+
+    <section class="quoteframe">
+        <blockquote class="quote">
+            <p>
+            More then just packaging
+            </p>
+            <cite>-EcoCover</cite>
+        </blockquote>
+    </section>
+
+    <section class="main">
+            <img class="box"src="img/box.png" alt="">
+        
+            <div class="textframe">
+                <h3>About us</h3>
+                <p>We are ecological reusable solution. We make reusable take-out boxes from recycled plastic. We produce them Deliver them to restaurants, clean them and repat the process.</p>
+                <p>We offer trust sustainability, and conveince</p>
+            </div>
+    </section>
+    
+    <section class="buttonframe">
+        <a href="default.asp"class="joinusbutton">
+            <div>
+                Became a partner
+            </div>
+        </a>
+    </section>
+
+
+   
+
+
+</body>
+
+<footer>
+    <container class="socialframe">
+        <a href="default.asp"><img class="socialico"src="img/face.png"></a>
+        <a href="default.asp"><img class="socialico"src="img/insta.png"></a>
+        <a href="default.asp"><img class="socialico"src="img/wats.png"></a>
+    </container>
+    <container class="anotationframe">
+        <p>follow us</p>
+        <p>Copy Rights ©</p>
+    </container>
+    
+   
+</footer>
