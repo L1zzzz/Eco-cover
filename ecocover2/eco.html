@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="eco.css">
+  <link rel="stylesheet" href="https://use.typekit.net/yhl2nma.css">
+</head>
+<body>
+<div class="slideshow-container">
+
+    <div class="mySlides fade">
+        <img src="pc.jpg" style="width:100%">
+      </div>
+
+    <div class="mySlides fade">
+      <img src="pc1.jpg" style="width:100%">
+    </div>
+    
+    <div class="mySlides fade">
+      <img src="pc2.jpg" style="width:100%">
+    </div>
+    
+    <div class="mySlides fade">
+      <img src="pc3.jpg" style="width:100%">
+    </div>
+    
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+    </div>
+
+  <div id="title">
+        <h1 style= "text-align:center; color:#7AB054;">Regular cover</h1>
+          <p style= "font-size: 18px;"> Reusable packiging</p>
+          <p style= "font-size: 20px; margin-left: 20px; margin-right: 20px; padding-top: 20px;"> Our packages are sustainable and really easy to cary anywhere with you</p>
+        <br>
+     <hr style="width:70%;text-align:left;margin: left 10px; right: 10px;">
+          <p style= "font-size: 17px;"> Global and plastic-free delivery</p>
+     <hr style="width:70%;text-align:left;margin: left 10px; right: 10px;">
+          <p style= "font-size: 17px;"> Danish quality design</p>
+     <hr style="width:70%;text-align:left;margin: left 10px; right: 10px;">
+  </div>
+
+   <div id="spcs">
+        <h2 style= text-align:center>Specifications</h2> 
+     <div style="background-color:#7AB054; padding-top: 2px; padding-bottom: 7px;">
+    <h3 style= text-align:center>Product description</h3>
+          <p style= "font-size: 16px;">Eco cover- for caring any kind of food</p>
+          <p style= "font-size: 16px;">Size- Multiple sizes</p>
+          <p style= "font-size: 16px;">Weight- 21 grams/ 0.74 ounces</p>
+    </div>
+  </div>
+
+    <div id="materials">
+    <div style="background-color:#7AB054; padding-top: 2px; padding-bottom: 7px; margin-top: 20px;">
+       <h3 style= text-align:center>Materials</h3>
+          <p style= "font-size: 16px;">Case: high quality durable plastic</p>
+          <p style= "font-size: 16px;">Cover: 100% made from recycled plastic material</p>
+    </div> 
+ </div>
+
+    <div id="design">
+    <div style="background-color:#7AB054; padding-top: 2px; padding-bottom: 7px; margin-top: 20px;">
+        <h3 style= text-align:center;>Design</h3>
+        <p style= "font-size: 16px;">Eco cover is designed in Denmark.</p>
+        <p style= "font-size: 16px;">Design and Trademark protected globally.</p>
+    </div>
+  </div>
+
+  <script>
+    var slideIndex = 0;
+    showSlides();
+    
+    function showSlides() {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}    
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+      setTimeout(showSlides, 2000); // Change image every 2 seconds
+    }
+    </script>
+</body>
+</html> 
